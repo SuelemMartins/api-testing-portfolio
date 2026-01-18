@@ -10,16 +10,19 @@ Breve explicação do que foi testado e qual era o objetivo (ex: Garantir que o 
 * **Autenticação:** Bearer Token
 
 ## 🎯 Cenários de Validação (Checklist)
-- ✅ **Status Code:** Validação de sucesso (ex: 200 OK).
-- ✅ **Regra de Negócio:** [Ex: Verificação de UUID no nome do ficheiro].
-- ✅ **Integração:** [Ex: Validação de link via CDN CloudFront].
-- ✅ **Contrato JSON:** Validação da estrutura dos campos retornados.
+✅ Status Code: Validação de sucesso (200 OK) com tempo de resposta de 1.20s.
+
+✅ Regra de Negócio: Substituição do nome original por identificador único UUID.
+
+✅ Integração: Armazenamento em diretórios S3 e entrega via link CloudFront.
+
+✅ Contrato JSON: Validação da estrutura de resposta e campos retornados.
 
 ## 📸 Evidência Técnica
 > **Nota de Privacidade:** Dados sensíveis (tokens e informações pessoais) foram ocultados para garantir a segurança da plataforma e conformidade com a LGPD.
 
-![Legenda da Imagem](<img width="1352" height="690" alt="atividadeqa" src="https://github.com/user-attachments/assets/4162cd7e-2c9f-4d1f-b4f1-3fed32a94500" />
-.png)
+Resultado do Upload<img width="1352" height="690" alt="atividadeqa" src="https://github.com/user-attachments/assets/4162cd7e-2c9f-4d1f-b4f1-3fed32a94500"/>
+
 
 ## 💡 Conclusão
 A validação confirma que a regra de negócio para persistência de dados em nuvem foi aplicada com sucesso. O sistema garante a unicidade dos arquivos via UUID e a eficiência na entrega através da CDN, reduzindo a latência e eliminando riscos de sobreposição de ficheiros no S3.
