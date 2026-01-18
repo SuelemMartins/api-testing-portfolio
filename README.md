@@ -25,4 +25,35 @@ Resultado do Upload<img width="1352" height="690" alt="atividadeqa" src="https:/
 
 
 ## 💡 Conclusão
-A validação confirma que a regra de negócio para persistência de dados em nuvem foi aplicada com sucesso. O sistema garante a unicidade dos arquivos via UUID e a eficiência na entrega através da CDN, reduzindo a latência e eliminando riscos de sobreposição de ficheiros no S3.
+A validação confirma que a regra de negócio para persistência de dados em nuvem foi aplicada com sucesso. O sistema garante a unicidade dos arquivos via UUID e a eficiência na entrega através da CDN, reduzindo a latência e eliminando riscos de sobreposição de ficheiros no S3. 
+
+🌟 Deixe sua estrelinha!
+
+Se você gostou do projeto, não esqueça de **dar uma estrelinha ⭐** para apoiar e acompanhar meus próximos projetos! 💖  
+
+---
+
+<div align="center">
+
+🌸 **Obrigada por acompanhar a validação deste teste!** 🌸  
+💌 Seu apoio me motiva a continuar aprendendo e criando 💕  
+
+<img src="sakura.gif" width="220" alt="Sakura piscando fofinha">
+
+<br>
+
+✨ **Deixe uma estrelinha!** ✨  
+⭐ 👉 [Clique aqui e deixe seu apoio!](#)
+
+<p align="center">
+  Feito com carinho por <b>Suelem Martins</b> 💖  
+</p>
+
+</div>
+
+🐞💻 Testado por
+
+ Suelem Carla Martins
+📍 Blumenau - SC
+📧 suelemnascinto@gmail.com
+   
